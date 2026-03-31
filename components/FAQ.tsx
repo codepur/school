@@ -62,7 +62,7 @@ export default function FAQ() {
 
         {/* Accordion */}
         <div className="max-w-3xl mx-auto">
-          <Accordion type="single" collapsible className="space-y-3">
+          <Accordion className="space-y-3">
             {faqs.map((faq, index) => (
               <AccordionItem
                 key={index}
