@@ -13,8 +13,13 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <div className="font-bold text-lg text-school-dark tracking-tight">
-            <span className="text-school-maroon">Vedaant</span>{" "}
-            <span className="text-school-dark">Vidhyakulum</span>
+            <Image
+              src="/images/logo.png"
+              alt="Vedaant Vidhyakulum Logo"
+              width={180}
+              height={80}
+              className="object-contain"
+            />
           </div>
         </Link>
 
