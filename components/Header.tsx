@@ -16,7 +16,7 @@ export default function Header() {
             <Image
               src="/images/logo.png"
               alt="Vedaant Vidhyakulum Logo"
-              width={180}
+              width={160}
               height={80}
               className="object-contain"
             />
