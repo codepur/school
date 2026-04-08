@@ -2,11 +2,9 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#FCFBF8] pt-12 mt-10">
+    <footer className="bg-[#FCFBF8] ">
       <div className=" bg-black rounded-t-[40px] px-8 md:px-16 pt-10 md:pt-16 pb-10 text-white relative shadow-lg">
-
         <div className="flex flex-col lg:flex-row justify-between items-start gap-16 mb-24">
-
           {/* Left Block */}
           <div className="max-w-[500px]">
             {/* Logo placeholder - using image assuming logo is provided */}

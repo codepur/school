@@ -5,34 +5,100 @@ import { useRef } from "react";
 
 const facilityImages = [
   {
-    src: "/images/Rectangle 11.png",
+    src: "/images/detail/Labs.jpg",
     alt: "Labs",
     title: "Labs",
     description: "Modern facilities for practical and interactive learning"
   },
   {
-    src: "/images/Rectangle 11 (1).png",
-    alt: "Spacious Classrooms",
-    title: "Spacious Classrooms",
-    description: "Well-lit classrooms with natural light and ventilation"
-  },
-  {
-    src: "/images/Rectangle 11 (2).png",
+    src: "/images/detail/Library.jpg",
     alt: "Library",
     title: "Library",
     description: "Extensive collection of books and learning materials"
   },
   {
-    src: "/images/Rectangle 11 (3).png",
-    alt: "Play and Activity",
-    title: "Play and Activity",
-    description: "Safe outdoor spaces for physical activities and games"
+    src: "/images/detail/VR%20Lab.jpg",
+    alt: "VR Lab",
+    title: "VR Lab",
+    description: "Immersive learning experiences with virtual reality"
   },
   {
-    src: "/images/Rectangle 11.png", // Reusing image placeholder
-    alt: "Hygiene & Safety",
-    title: "Hygiene & Safety",
-    description: "Clean and well-maintained campus for daily safety"
+    src: "/images/detail/Swimming.jpg",
+    alt: "Swimming",
+    title: "Swimming Pool",
+    description: "Excellent aquatic facilities for student fitness and training"
+  },
+  {
+    src: "/images/detail/Skating.jpg",
+    alt: "Skating Rink",
+    title: "Skating Rink",
+    description: "Dedicated spaces for skating and active recreation"
+  },
+  {
+    src: "/images/detail/Shooting.jpg",
+    alt: "Shooting Range",
+    title: "Shooting Range",
+    description: "Professional facilities for precision sports"
+  },
+  {
+    src: "/images/detail/Shooting2.jpg",
+    alt: "Advanced Shooting",
+    title: "Advanced Shooting",
+    description: "Specialized training for competitive marksmanship"
+  },
+  {
+    src: "/images/detail/Snooker.jpg",
+    alt: "Snooker",
+    title: "Indoor Sports",
+    description: "Recreational indoor facilities promoting strategic thinking"
+  },
+  {
+    src: "/images/detail/Sports%20day.jpg",
+    alt: "Sports Grounds",
+    title: "Sports Grounds",
+    description: "Expansive outdoor spaces for athletics and team sports"
+  },
+  {
+    src: "/images/detail/Taekwondo.jpg",
+    alt: "Taekwondo",
+    title: "Martial Arts",
+    description: "Training areas for self-defense and discipline"
+  },
+  {
+    src: "/images/detail/Science%20Exhibition.jpg",
+    alt: "Science Exhibition",
+    title: "Science Exhibition",
+    description: "Showcasing student innovation and scientific discovery"
+  },
+  {
+    src: "/images/detail/Teaching%20Method.jpg",
+    alt: "Teaching Method",
+    title: "Interactive Classrooms",
+    description: "Modern teaching methodologies in interactive environments"
+  },
+  {
+    src: "/images/detail/Curriculum.jpg",
+    alt: "Curriculum",
+    title: "Dynamic Curriculum",
+    description: "A comprehensive approach to modern academic education"
+  },
+  {
+    src: "/images/detail/Assessment%20and%20Feedback.jpg",
+    alt: "Assessment and Feedback",
+    title: "Assessment",
+    description: "Dedicated spaces for student evaluation and feedback"
+  },
+  {
+    src: "/images/detail/Culture.jpg",
+    alt: "Culture",
+    title: "Cultural Activities",
+    description: "Fostering a rich environment for holistic development"
+  },
+  {
+    src: "/images/detail/Supportive%20Teachers.jpg",
+    alt: "Supportive Teachers",
+    title: "Supportive Faculty",
+    description: "Dedicated educators guiding students every step of the way"
   }
 ];
 

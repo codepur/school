@@ -32,11 +32,6 @@ const faqs = [
     answer:
       "Student safety is our top priority. We have CCTV surveillance across the campus, verified staff, secure entry/exit protocols, GPS-enabled buses, and a dedicated safety committee that regularly reviews and updates our safety measures.",
   },
-  {
-    question: "What is the teacher-student ratio?",
-    answer:
-      "We maintain a favorable teacher-student ratio of 1:20 to ensure personalized attention for every student. Teaching assistants are also available in lower classes to provide additional support.",
-  },
 ];
 
 export default function FAQ() {

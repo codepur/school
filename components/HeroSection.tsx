@@ -1,12 +1,27 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
 
+const heroImages = [
+  "/images/home/home_page_1.jpg",
+  "/images/home/home_page_2.jpg",
+  "/images/home/home_page_3.jpg",
+];
+
 export default function HeroSection() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
   const [formData, setFormData] = useState({
     full_name: "",
     mobile_number: "",
@@ -46,16 +61,20 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative overflow-hidden" id="apply">
-      {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="/images/9a8b9b47a5f35452f3dea2c8793216c79ceb90be.jpg"
-          alt="Students in classroom"
-          fill
-          className="object-cover"
-          priority
-        />
+    <section className="relative overflow-hidden " id="apply">
+      {/* Background Image Carousel */}
+      <div className="absolute inset-0 z-0 bg-black">
+        {heroImages.map((src, index) => (
+          <Image
+            key={src}
+            src={src}
+            alt={`Hero background ${index + 1}`}
+            fill
+            className={`object-cover transition-opacity duration-1000 ease-in-out ${index === currentImageIndex ? "opacity-100" : "opacity-0"
+              }`}
+            priority={index === 0}
+          />
+        ))}
         <div className="absolute inset-0 bg-black/30" />
       </div>
 

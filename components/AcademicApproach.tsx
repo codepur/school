@@ -129,7 +129,10 @@ export default function AcademicApproach() {
                    </p>
                  </div>
                  
-                 <button className="mt-9 bg-[#7C241C] text-white rounded-full px-8 py-[15px] font-semibold text-[15px] w-full hover:bg-[#7C241C]/90 transition-colors shadow-sm">
+                 <button 
+                   onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                   className="mt-9 bg-[#7C241C] text-white rounded-full px-8 py-[15px] font-semibold text-[15px] w-full hover:bg-[#7C241C]/90 transition-colors shadow-sm"
+                 >
                    Apply Now
                  </button>
                </div>

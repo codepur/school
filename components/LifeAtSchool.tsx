@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 const lifeImages = [
-  { src: "/images/Image.png", alt: "Students in assembly" },
-  { src: "/images/Image (1).png", alt: "Swings and playground" },
-  { src: "/images/Image (2).png", alt: "Climbing net activity" },
-  { src: "/images/Image (3).png", alt: "Classroom instruction" },
-  { src: "/images/Image (4).png", alt: "Music class" },
-  { src: "/images/Image (5).png", alt: "Basketball court" },
-  { src: "/images/Rectangle 11.png", alt: "Dormitory/Hostel" },
-  { src: "/images/Rectangle 11 (2).png", alt: "Dining hall" },
+  { src: "/images/life/1.jpg", alt: "Students in assembly" },
+  { src: "/images/life/2.jpg", alt: "Swings and playground" },
+  { src: "/images/life/3.jpg", alt: "Climbing net activity" },
+  { src: "/images/life/4.jpg", alt: "Classroom instruction" },
+  { src: "/images/life/5.jpg", alt: "Music class" },
+  { src: "/images/life/6.jpg", alt: "Basketball court" },
+  { src: "/images/life/7.jpg", alt: "Dormitory/Hostel" },
+  { src: "/images/life/8.jpg", alt: "Dining hall" },
 ];
 
 export default function LifeAtSchool() {
@@ -52,7 +52,7 @@ export default function LifeAtSchool() {
               <line x1="22" y1="12" x2="16" y2="13" />
             </svg>
           </div>
-          
+
           {/* Decorative star at bottom left of grid */}
           <div className="absolute -bottom-6 -left-6 z-20 text-[#1E1B18] hidden md:block opacity-80 pointer-events-none">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
